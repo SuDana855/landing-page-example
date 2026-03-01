@@ -1,3 +1,5 @@
 Assets used: 
-Hero picture -
+
+Hero picture - Photo by <a href="https://unsplash.com/@kmuza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carlos Muza</a> on <a href="https://unsplash.com/photos/laptop-computer-on-glass-top-table-hpjSkU2UYSU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
 4 icons for services - AI-generated with Nano banana
