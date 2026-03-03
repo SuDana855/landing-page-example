@@ -1,24 +1,56 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     background-color: #1f2937;
+    padding: 16px;
+}
+
+.header-content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 .navigation {
     font-size: 18px;
     color: #e5e7eb;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 .hero {
     background-color: #1f2937;
+    padding: 16px;
+}
+
+.hero-content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px auto;
+    gap: 64px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
 }
 
 .hero-text .title {
@@ -29,15 +61,22 @@ body {
 
 .hero-text div {
     font-size: 18px;
-    color: #e5e7eb;
+    color:#e5e7eb;
 }
 
 .hero img {
-    width: 500px;
+    width: 450px;
 }
 
 button {
     background-color: #3882f6;
+    align-self: flex-start;
+    padding: 12px 36px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    color:#f9faf8;
 }
 
 .card-title {
