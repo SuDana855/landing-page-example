@@ -90,7 +90,6 @@ button {
 .items {
     display: flex;
     gap: 64px;
-
 }
 
 .card-title {
@@ -113,6 +112,7 @@ button {
     width: 200px;
     text-align: center;
     gap: 16px;
+    font-size: 18px;
 }
 
 .review {
@@ -131,6 +131,7 @@ button {
     font-style: italic;
     font-weight: 300;
     width: 1200px;
+    display: flex;
 }
 
 .review-author {
@@ -155,11 +156,20 @@ button {
     gap: 36px;
     align-items: center;
     border-radius: 16px;
+    font-size: 18px;
+    width: 1200px;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .promo button {
     border: 2px solid #f9faf8;
     align-self: center;
+}
+
+.promo-text {
+    width: 800px;
+    flex-shrink: 1;
 }
 
 .promo-title {
