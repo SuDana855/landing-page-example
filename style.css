@@ -162,7 +162,7 @@ button {
     align-items: center;
     border-radius: 16px;
     font-size: 18px;
-    width: 1200px;
+    max-width: 1200px;
     box-sizing: border-box;
     justify-content: space-between;
     flex: 0 1 auto;
@@ -174,8 +174,7 @@ button {
 }
 
 .promo-text {
-    width: 800px;
-    flex-shrink: 1;
+    max-width: 800px;
 }
 
 .promo-title {
